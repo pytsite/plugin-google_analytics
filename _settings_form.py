@@ -14,6 +14,7 @@ class Form(_settings.Form):
             weight=10,
             label=_lang.t('google_analytics@tracking_id'),
             required=True,
+            help=_lang.t('google_analytics@tracking_id_setup_help'),
             rules=_validation.rule.Regex(pattern='UA-\d+-\d+')
         ))
 

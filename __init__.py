@@ -14,6 +14,9 @@ def _init():
     lang.register_package(__name__, alias='google_analytics')
     tpl.register_package(__name__, alias='google_analytics')
 
+    # Lang globals
+    lang.register_global('google_analytics_admin_settings_url', lambda: settings.form_url('google_analytics'))
+
     # Permissions
     permissions.define_permission('google_analytics.settings.manage',
                                   'google_analytics@manage_google_analytics_settings', 'app')
