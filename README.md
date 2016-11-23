@@ -1,6 +1,6 @@
 # PytSite Google Analytics Plugin
 
-[Google Analytics](https://analytics.google.com) functionality for the [PytSite](https://pytsite.xyz).
+[Google Analytics](https://analytics.google.com) plugin for [PytSite](https://pytsite.xyz).
 
 
 ## Installation
