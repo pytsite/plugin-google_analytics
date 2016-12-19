@@ -1,1 +1,17 @@
-{}
+{
+  "description": {
+    "en": "Google Analytics support",
+    "ru": "Поддержка Google Analytics",
+    "uk": "Підримка Google Analytics"
+  },
+  "url": "https://github.com/pytsite/plugin-google_analytics",
+  "author": {
+    "name": "Alexander Shepetko",
+    "email": "a@shepetko.com",
+    "url": "https://shepetko.com"
+  },
+  "requires": {
+    "packages": [],
+    "plugins": []
+  }
+}
