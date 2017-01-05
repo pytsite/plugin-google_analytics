@@ -1,8 +1,8 @@
 {
   "description": {
-    "en": "Google Analytics support",
-    "ru": "Поддержка Google Analytics",
-    "uk": "Підримка Google Analytics"
+    "en": "Google Analytics",
+    "ru": "Google Analytics",
+    "uk": "Google Analytics"
   },
   "url": "https://github.com/pytsite/plugin-google_analytics",
   "author": {
