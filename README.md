@@ -4,6 +4,10 @@
 ## Changelog
 
 
+### 0.1.6 (2017-03-30)
+Fixed notifications. 
+
+
 ### 0.1.5 (2017-01-12)
 Support for latest PytSite `form`'s changes.
 

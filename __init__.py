@@ -7,7 +7,7 @@ __license__ = 'MIT'
 
 
 def _init():
-    from pytsite import lang, tpl, permissions, settings, events
+    from pytsite import lang, tpl, permissions, settings, router
     from . import _settings_form, _eh
 
     # Resources
@@ -27,7 +27,7 @@ def _init():
                     'fa fa-line-chart', 'google_analytics.settings.manage')
 
     # Event handlers
-    events.listen('pytsite.router.dispatch', _eh.router_dispatch)
+    router.on_dispatch(_eh.router_dispatch)
 
 
 _init()
