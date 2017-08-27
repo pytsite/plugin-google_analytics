@@ -1,4 +1,6 @@
 {
+  "name": "plugins.google_analytics",
+  "version": "0.1.7",
   "description": {
     "en": "Google Analytics",
     "ru": "Google Analytics",

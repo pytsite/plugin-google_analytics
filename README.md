@@ -4,6 +4,10 @@
 ## Changelog
 
 
+### 0.1.7 (2017-08-27)
+`plugin.json` updated.
+
+
 ### 0.1.6 (2017-03-30)
 Fixed notifications. 
 
