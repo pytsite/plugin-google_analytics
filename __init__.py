@@ -7,12 +7,13 @@ __license__ = 'MIT'
 
 
 def _init():
-    from pytsite import lang, tpl, permissions, settings, router
+    from pytsite import lang, tpl, router
+    from plugins import settings, permissions
     from . import _settings_form, _eh
 
     # Resources
-    lang.register_package(__name__, alias='google_analytics')
-    tpl.register_package(__name__, alias='google_analytics')
+    lang.register_package(__name__)
+    tpl.register_package(__name__)
 
     # Lang globals
     lang.register_global('google_analytics_admin_settings_url',
