@@ -1,5 +1,4 @@
 google_analytics: 'Google Analytics'
 tracking_id: 'Tracking ID'
-manage_google_analytics_settings: 'Manage Google Analytics settings'
 plugin_setup_required_warning: 'You should <a href="{:google_analytics_admin_settings_url}">setup Google Analytics plugin</a>'
 tracking_id_setup_help: 'Obtain your Tracking ID <a target="_blank" href="https://analytics.google.com">here</a> then copy it to this field'

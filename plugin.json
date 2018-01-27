@@ -1,6 +1,6 @@
 {
   "name": "google_analytics",
-  "version": "1.2",
+  "version": "1.3",
   "description": {
     "en": "Google Analytics",
     "ru": "Google Analytics",
@@ -18,7 +18,7 @@
       "auth",
       "assetman",
       "permissions",
-      "settings",
+      "settings>=1.3",
       "widget"
     ]
   }
