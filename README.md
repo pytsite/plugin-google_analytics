@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 1.4 (2018-06-26)
+
+Support of `assetman-2.0`.
+
+
 ### 1.3.2 (2018-01-27)
 
 `plugin.json` fixed.

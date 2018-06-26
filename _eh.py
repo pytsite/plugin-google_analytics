@@ -15,4 +15,4 @@ def router_dispatch():
     if not t_id and _auth.get_current_user().has_role('dev'):
         _router.session().add_warning_message(_lang.t('google_analytics@plugin_setup_required_warning'))
     else:
-        _assetman.add_inline(_tpl.render('google_analytics@counter', {'tracking_id': t_id}))
+        _assetman.add_inline_js(_tpl.render('google_analytics@counter', {'tracking_id': t_id}))
